@@ -1,4 +1,4 @@
-# Useful commands:
+# Useful Commands
 
 ### Prerequisites 
 
@@ -42,6 +42,8 @@ k2-gpu-interactive gpu:3g.40gb:4(S:2-3,6-7,10-11,14-15),gpu:2g.20gb:8(S:2-3,6-7,
 * `4` and `8` => quantity of GPU resources
 * `(S:2-3,6-7,10-11,14-15)` => CPU socket groups
 
+***
+Author: [Arek Jaworski](https://github.com/iaforek/)
 
 
 
