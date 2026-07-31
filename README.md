@@ -17,6 +17,11 @@ This command requests:
 * `--time=1:00:00` => one hour
 * `--pty bash` => open interactive Bash session
 
+## Using GPU partition
+```bash
+srun -p k2-gpu-interactive -N 1 -n 1 --cpus-per-task=4 --gres=gpu:h100:1 --time=03:00:00 --mem=20G --pty bash
+```
+
 ## List all GPU partitions
 
 ```
