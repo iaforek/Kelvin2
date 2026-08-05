@@ -25,6 +25,16 @@ Check jobs by job ID:
 squeue -j JOB_ID
 ```
 
+Check all jobs on given partition:
+```
+squeue -p k2-gpu-h100
+```
+
+Check estimated start time of pending jobs in the queue. Add `--start` parameter:
+```
+squeue -p k2-gpu-h100 --start
+```
+
 ## Start node in interactive mode (basic)
 
 ```bash
