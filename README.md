@@ -4,6 +4,27 @@
 
 Connect to Kelvin2 first :smile:
 
+## Basic Commands
+
+### Check Queue
+
+Check jobs in the queue by user ID:
+```
+squeue -u USER_ID
+```
+
+Example output:
+```
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           9558945 k2-gpu-h1 yolov26n 12312399  R    8:58:16      1 gpu121
+```
+Status: R => running, PD => pending
+
+Check jobs by job ID:
+```
+squeue -j JOB_ID
+```
+
 ## Start node in interactive mode (basic)
 
 ```bash
